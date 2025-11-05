@@ -41,7 +41,7 @@ class Stream {
   constructor(x) {
     this.x = x;
     this.yOffset = random(-height, 0);
-    this.speed = random(3, 8);
+    this.speed = random(8, 15);
     this.vScale = vScale * random(0.8, 1.2);
     this.isWhite = random() < 0.1;
     this.symbols = [];
