@@ -2,7 +2,7 @@ let myvideo;
 let vScale;
 let phrase = ["豆", "包", "A", "I", "生", "成"];
 let streams = [];
-let numStreams = 120;
+let numStreams = 160;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -27,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 100);
+  background(125, 124);
   myvideo.loadPixels();
 
   for (let s of streams) {
